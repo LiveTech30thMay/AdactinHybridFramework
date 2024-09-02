@@ -1,0 +1,68 @@
+Project 1
+
+Hybrid  Framework
+DataDriven + Keyword Driven + POM + Testing 
+
+src/main/java
+src/main/resources
+src/test/java
+	  |
+	  base
+		- BaseTest
+	  |
+	  pages
+		- BasePage
+	  |
+	  utils
+		-UtilKit
+	  |
+	  testscripts
+			|
+			smoke
+				-ValidateLogin
+			|
+			regression
+			|
+			sprint
+src/test/resources
+		|
+		testdata
+			|
+			excels
+			|
+			jsons
+			|
+			csv 
+		|
+		Properties
+			-config.properties
+			-locators.properties 
+-reports
+
+-screenshots			
+			
+			
+			
+
+
+====================================
+TestNg hiererchy
+
+<suite name="Suite">
+  <test thread-count="5" name="Regression Authentication">
+    <classes>
+		methods
+		
+		
+
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+
+
+<test thread-count="5" name="Regression Authentication">  1 time 
+    <classes>
+      <class name="testcases.regression.ValidateLogin"/>  8 TCs   -> 8 times   -> 1 time 
+      <class name="testcases.regression.ValidateRegistration"/>  12TCs  -> 12 times -> 1  time
+    </classes>
+  </test> <!-- Test -->
