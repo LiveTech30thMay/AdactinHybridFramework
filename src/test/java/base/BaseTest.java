@@ -16,9 +16,11 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseTest {
 	
-	public FileInputStream fis1;
-	public Properties configProperties;
-	public WebDriver driver;
+	public static FileInputStream fis1;
+	public static Properties configProperties;
+	public static FileInputStream fis2;
+	public static Properties locatorProperties;
+	public static WebDriver driver;
 	@BeforeTest
 	public void setUpProperties()
 	{
@@ -38,13 +40,26 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 		
+		try {
+			fis2=new FileInputStream("src\\test\\resources\\properties\\locators.properties");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
+		locatorProperties =new Properties();
 		
+		try {
+			locatorProperties.load(fis2);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	
 	
-	@BeforeMethod
+	
 	public void setUp()
 	{
 		String browserName=configProperties.getProperty("browser");
@@ -70,7 +85,7 @@ public class BaseTest {
 		
 	}
 	
-	@AfterMethod
+	
 	public void teardown()
 	{
 		try {

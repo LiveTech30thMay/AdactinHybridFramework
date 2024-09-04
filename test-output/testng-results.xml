@@ -2,35 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-02T09:53:35 IST" name="Default suite" finished-at="2024-09-02T09:53:43 IST" duration-ms="8853">
+  <suite started-at="2024-09-04T10:13:40 IST" name="Default suite" finished-at="2024-09-04T10:13:58 IST" duration-ms="17980">
     <groups>
     </groups>
-    <test started-at="2024-09-02T09:53:35 IST" name="Default test" finished-at="2024-09-02T09:53:43 IST" duration-ms="8853">
-      <class name="testcases.regression.ValidateLoginTC005">
-        <test-method is-config="true" signature="setUpProperties()[pri:0, instance:testcases.regression.ValidateLoginTC005@54e1c68b]" started-at="2024-09-02T09:53:35 IST" name="setUpProperties" finished-at="2024-09-02T09:53:35 IST" duration-ms="6" status="PASS">
+    <test started-at="2024-09-04T10:13:40 IST" name="Default test" finished-at="2024-09-04T10:13:58 IST" duration-ms="17980">
+      <class name="testcases.regression.ValidateSearchHotelUsingKeyword">
+        <test-method is-config="true" signature="setUpProperties()[pri:0, instance:testcases.regression.ValidateSearchHotelUsingKeyword@729d991e]" started-at="2024-09-04T10:13:40 IST" name="setUpProperties" finished-at="2024-09-04T10:13:40 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProperties -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.regression.ValidateLoginTC005@54e1c68b]" started-at="2024-09-02T09:53:35 IST" name="setUp" finished-at="2024-09-02T09:53:40 IST" duration-ms="4731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testcases.regression.ValidateLoginTC005@54e1c68b]" started-at="2024-09-02T09:53:40 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-02T09:53:40 IST" duration-ms="175" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{errorText=Enter Username}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateLoginTest1()[pri:0, instance:testcases.regression.ValidateSearchHotelUsingKeyword@729d991e]" started-at="2024-09-04T10:13:40 IST" name="validateLoginTest1" finished-at="2024-09-04T10:13:58 IST" duration-ms="17946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.regression.ValidateLoginTC005@54e1c68b]" started-at="2024-09-02T09:53:40 IST" name="teardown" finished-at="2024-09-02T09:53:43 IST" duration-ms="3257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcases.regression.ValidateLoginTC005 -->
+      </class> <!-- testcases.regression.ValidateSearchHotelUsingKeyword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
