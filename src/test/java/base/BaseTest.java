@@ -59,7 +59,7 @@ public class BaseTest {
 	}
 	
 	
-	
+	@BeforeMethod
 	public void setUp()
 	{
 		String browserName=configProperties.getProperty("browser");
@@ -85,7 +85,7 @@ public class BaseTest {
 		
 	}
 	
-	
+	@AfterMethod
 	public void teardown()
 	{
 		try {

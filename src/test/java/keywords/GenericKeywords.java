@@ -112,7 +112,7 @@ public class GenericKeywords extends BaseTest {
 	
 	public String getTitle()
 	{
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		
 		return driver.getTitle();
 		

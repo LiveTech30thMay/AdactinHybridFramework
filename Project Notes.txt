@@ -66,3 +66,12 @@ TestNg hiererchy
       <class name="testcases.regression.ValidateRegistration"/>  12TCs  -> 12 times -> 1  time
     </classes>
   </test> <!-- Test -->
+  
+  
+****************************************************
+Keyword Driven Framework
+****************************************************
+
+for each step in your testcase , write a method and call it .
+
+
