@@ -75,3 +75,20 @@ Keyword Driven Framework
 for each step in your testcase , write a method and call it .
 
 
+******************************************************
+Page Object Model
+*****************************************************
+
+This is a design pattern applied to framework 
+
+
+Here we create a java class for each page 
+in that page we instantiate WebElement and methods 
+
+
+
+we are using PageFactory 
+
+annotations 
+
+@FindBy
