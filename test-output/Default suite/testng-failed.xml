@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.regression.ValidateSearchHotelUsingHybrid1">
+      <class name="testcases.regression.ValidateLoginWithoutListeners">
         <methods>
-          <include name="validateLoginTest1" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="validateLoginTest1"/>
+          <include name="teardown"/>
           <include name="setUpProperties"/>
         </methods>
-      </class> <!-- testcases.regression.ValidateSearchHotelUsingHybrid1 -->
+      </class> <!-- testcases.regression.ValidateLoginWithoutListeners -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

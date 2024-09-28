@@ -14,7 +14,7 @@ public class ValidateLogin extends BaseTest{
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("reyaz0806");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("reyaz123");
 		driver.findElement(By.xpath("//input[@name='login']")).click();
-		Assert.assertEquals(driver.getTitle(), "Adactin.com - Search Hotel");
+		Assert.assertEquals(driver.getTitle(), "Adactin.com-Search Hotel");
 		
 	}
 	

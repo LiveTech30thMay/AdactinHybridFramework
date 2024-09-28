@@ -2,28 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T09:59:33 IST" name="Default suite" finished-at="2024-09-05T09:59:45 IST" duration-ms="11894">
+  <suite started-at="2024-09-06T10:06:44 IST" name="Suite" finished-at="2024-09-06T10:07:27 IST" duration-ms="42874">
     <groups>
     </groups>
-    <test started-at="2024-09-05T09:59:33 IST" name="Default test" finished-at="2024-09-05T09:59:45 IST" duration-ms="11894">
-      <class name="testcases.regression.ValidateLoginUsingPOM">
-        <test-method is-config="true" signature="setUpProperties()[pri:0, instance:testcases.regression.ValidateLoginUsingPOM@4dbb42b7]" started-at="2024-09-05T09:59:33 IST" name="setUpProperties" finished-at="2024-09-05T09:59:33 IST" duration-ms="11" status="PASS">
+    <test started-at="2024-09-06T10:06:44 IST" name="Test" finished-at="2024-09-06T10:07:27 IST" duration-ms="42874">
+      <class name="testcases.regression.ValidateLoginUsingPOMandDataProvider">
+        <test-method is-config="true" signature="setUpProperties()[pri:0, instance:testcases.regression.ValidateLoginUsingPOMandDataProvider@d9345cd]" started-at="2024-09-06T10:06:44 IST" name="setUpProperties" finished-at="2024-09-06T10:06:45 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProperties -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.regression.ValidateLoginUsingPOM@4dbb42b7]" started-at="2024-09-05T09:59:33 IST" name="setUp" finished-at="2024-09-05T09:59:41 IST" duration-ms="7795" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testcases.regression.ValidateLoginUsingPOMandDataProvider@d9345cd]" started-at="2024-09-06T10:06:46 IST" name="setUp" finished-at="2024-09-06T10:06:52 IST" duration-ms="5971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@550de6b8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest1()[pri:0, instance:testcases.regression.ValidateLoginUsingPOM@4dbb42b7]" started-at="2024-09-05T09:59:41 IST" name="validateLoginTest1" finished-at="2024-09-05T09:59:41 IST" duration-ms="789" status="PASS">
+        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testcases.regression.ValidateLoginUsingPOMandDataProvider@d9345cd]" started-at="2024-09-06T10:06:52 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-06T10:07:23 IST" duration-ms="30871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, username=reyaz0806}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.regression.ValidateLoginUsingPOM@4dbb42b7]" started-at="2024-09-05T09:59:41 IST" name="teardown" finished-at="2024-09-05T09:59:45 IST" duration-ms="3278" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.regression.ValidateLoginUsingPOMandDataProvider@d9345cd]" started-at="2024-09-06T10:07:23 IST" name="teardown" finished-at="2024-09-06T10:07:26 IST" duration-ms="3489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testcases.regression.ValidateLoginUsingPOM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testcases.regression.ValidateLoginUsingPOMandDataProvider@d9345cd]" started-at="2024-09-06T10:07:26 IST" name="closeReports" finished-at="2024-09-06T10:07:27 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- testcases.regression.ValidateLoginUsingPOMandDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

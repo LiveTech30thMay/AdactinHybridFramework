@@ -92,3 +92,37 @@ we are using PageFactory
 annotations 
 
 @FindBy
+
+************************************
+Listeners in TestNg
+************************************
+ITestListener(I) 
+
+onFinish(ITestContext)
+onStart(ITestContext)
+onTestFailedButWithinSuccessPercentage(ITestResult)
+onTestFailedWithTimeout(ITestResult)
+onTestFailure(ITestResult)
+onTestSkipped(ITestResult)
+onTestStart(ITestResult)
+onTestSuccess(ITestResult)
+
+********************************
+Reports
+*********************************
+ExtentReports or Allure Reports 
+
+
+ExtentReports
+
+ExtentTest
+
+ExtentSparkReporter
+
+
+***********************************
+Git and Github
+***********************************
+
+download git 
+

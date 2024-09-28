@@ -29,16 +29,19 @@ public class LoginPage extends BasePage {
 	public void usernameTextbox(String text)
 	{
 		usernameTextbox.sendKeys(text);
+		test.info("Entered text "+text+" into textbox "+usernameTextbox);
 	}
 	
 	public void passwordTextbox(String text)
 	{
 		passwordTextbox.sendKeys(text);
+		test.info("Entered text "+text+" into textbox "+passwordTextbox);
 	}
 	
 	public void loginButton()
 	{
 		loginButton.click();
+		test.info("Clicked button  "+loginButton);
 	}
 	
 	
